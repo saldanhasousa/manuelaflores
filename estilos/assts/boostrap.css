@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Play';
+    src: url('../fonts/PlaywriteIN-VariableFont_wght.ttf') format('truetype');
+}
+
+:root {
+    --cor1: #f204ff81;
+    --cor_ouro: #af9b40;
+    --font_padrao:  Arial, Verdana, Helvetica, sans-serif;
+    --cor_links: #f204ffc2;
+    --cor_links_active: #2088fffd;
+    --font_a_mao: 'Play';
+}
+
+
+/*VAMOS CRIAR AS CLASSES AQUI*/
+
+.container{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+}

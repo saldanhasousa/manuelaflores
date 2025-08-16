@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+@import "../../estilos/assts/header.css";
+@import "../../estilos/assts/footer.css";
+@import "main_sec.css";
+
+@import "header_sec.css";
+
+
+@font-face {
+    font-family: 'Play';
+    src: url('../fonts/PlaywriteIN-VariableFont_wght.ttf') format('truetype');
+}
+
+:root {
+    --cor1: #f204ff81;
+    --cor_ouro: #af9b40;
+    --font_padrao:  Arial, Verdana, Helvetica, sans-serif;
+    --cor_links: #f204ffc2;
+    --cor_links_active: #2088fffd;
+    --font_a_mao: 'Play';
+}
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: var(--font_padrao);
+    background-color: #f3f0eb;
+}
+
+
