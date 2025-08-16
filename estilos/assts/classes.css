@@ -12,6 +12,11 @@
     color: #f4b6c0;
 }
 
+.inform{
+    line-height: 1.5em;
+    padding: 5px;
+}
+
 .card > p{
     /* font-size: small; */
     text-align: center;

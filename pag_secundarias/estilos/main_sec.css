@@ -5,15 +5,26 @@ main{
 }
 
 section{
-    margin-left: 40px;
-    margin-bottom: 150px;
+    width: 95%;
+    margin-left: 2.5vw;
+    margin-right: 2.5vw;
+   
+}
+
+article{
+    display: flex;
+    flex-flow: row wrap;
+    width: 95%;
+    margin: auto;
 }
 
 
-
 .card{
-    display: inline-block;
-    width: 18%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    width: 200px;
+    height: 300px;
     line-height: 1em;
     border-radius: 5px;
     background-color: #fff;
@@ -22,6 +33,11 @@ section{
     overflow: hidden;
     color: #f4b6c0;
     margin: 5px;
+}
+
+.inform{
+    line-height: 1.5em;
+    padding: 5px;
 }
 
 .card > p{
