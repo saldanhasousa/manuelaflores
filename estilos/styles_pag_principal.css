@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+
+@import "assts/header.css";
+@import "assts/main.css";
+@import "assts/footer.css";
+@import "assts/boostrap.css";
+@import "assts/classes.css";
+
+@font-face {
+    font-family: 'Play';
+    src: url('../fonts/PlaywriteIN-VariableFont_wght.ttf') format('truetype');
+}
+
+:root {
+    --cor1: #f204ff81;
+    --cor_ouro: #af9b40;
+    --font_padrao:  Arial, Verdana, Helvetica, sans-serif;
+    --cor_links: #f204ffc2;
+    --cor_links_active: #2088fffd;
+    --font_a_mao: 'Play';
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    
+    font-family: var(--font_padrao);
+    
+}
+
+
+body {
+    position: relative;
+    background-color: #f3f0eb;
+    min-width: 320px;
+    height: 100vh;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    overflow-x: hidden;
+    /* max-width: 1250px; */
+    
+    
+}
+
+
+a{
+    padding: 2.5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
