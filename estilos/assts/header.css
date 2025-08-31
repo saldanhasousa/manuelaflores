@@ -26,6 +26,7 @@ header {
     background-image: linear-gradient(to right, #f4b6c0 50%, #e28aa1);
     display: flex;
     flex-flow: column nowrap;    
+    
 }
 
 header a {
