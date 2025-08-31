@@ -118,6 +118,37 @@ div#img_lado_logo > img{
     width: 400px;
 }
 
+@media screen and (min-width: 360px) and (max-width: 640px) {
 
+    header #img_menu{
+        display: block;
+        width: 50px;
+        height: 50px;
+    }
+
+    header #imenu{
+        display: none;
+        background-color: #fff;
+        z-index: 55;
+    }
+
+        header div#img_logo img{
+            display: none;
+           width: 100px;
+           height: 100px;
+        }
+
+        header div#img_logo{
+            text-align: center;
+            z-index: 1;
+            
+        }
+
+        #img_lado_logo img{
+            width: 100%;
+        }
+
+
+}
 
 

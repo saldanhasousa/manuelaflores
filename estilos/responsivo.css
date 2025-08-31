@@ -11,36 +11,5 @@
 }
 
 
-/*Mobal*/
+/*Mobal 360 × 640 px*/
 
-@media screen and (max-width: 670px) {
-
-    header #img_menu{
-        display: block;
-        width: 25px;
-        height: 25px;
-    }
-
-    header #imenu{
-        display: none;
-        background-color: #fff;
-        z-index: 55;
-    }
-
-        header div#img_logo img{
-           width: 100px;
-           height: 100px;
-        }
-
-        header div#img_logo{
-            text-align: center;
-            z-index: 1;
-            
-        }
-
-        #img_lado_logo img{
-            width: 100%;
-        }
-
-
-}
