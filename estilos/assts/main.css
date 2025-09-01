@@ -108,7 +108,7 @@ section#parte2 {
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
-    overflow: hidden;
+    overflow-x: hidden;
     background-color: #f4b6c0;
     padding: 20px;
 }
