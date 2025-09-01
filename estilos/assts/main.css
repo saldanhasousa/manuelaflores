@@ -108,6 +108,7 @@ section#parte2 {
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
+    overflow: hidden;
     background-color: #f4b6c0;
     padding: 20px;
 }
@@ -142,8 +143,9 @@ section#parte2 #conteudo p{
 }
 
 section#parte2 #conteudo{
+    font-size: 1.5em;
     padding-top: 10px;
-    font-size: 2em;
+    line-height: 2em;
     
 }
 }

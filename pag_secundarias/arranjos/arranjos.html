@@ -23,7 +23,7 @@
 
                 <menu id="imenu">
                     
-                        <ul>
+                        <ul id="lis_menu">
                             <li><a href="../../index.html">Home</a></li>
                             <li><a href="arranjos.html">Arranjos</a></li>
                             <li><a href="../ocasioes/ocasioes.html">Ocasiões</a></li>
@@ -1657,13 +1657,16 @@
 
         <script>
             AOS.init();
+            let menu = document.getElementById('lis_menu')
+
             function visibilidadeMenu(){
-                if (imenu.style.display == 'block') {
-                    imenu.style.display = 'none'
+                if (menu.style.display == 'block') {
+                    menu.style.display = 'none'
                 } else {
-                    imenu.style.display = 'block'
+                    menu.style.display = 'block'
                 }
             }
+
         </script>
 </body>
 </html>

@@ -28,3 +28,9 @@ header h1{
      
 }
 
+@media screen and (max-width: 645px) {
+    header h1{
+        font-size: 3em;
+    }
+}
+

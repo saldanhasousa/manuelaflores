@@ -10,7 +10,7 @@
 
     <link rel="shortcut icon" href="../fav_bel/favicon-16x16.png" type="image/x-icon">
     <link rel="stylesheet" href="../estilos/style_secun.css">
-    <link rel="stylesheet" media="(max-width: 718px)" href="../../estilos/mobel.css">
+    
 
    
 </head>
@@ -18,11 +18,11 @@
 
  <header >
                 <!--MENU HAMBURGER-->
-                <img src="icons/menu.png" id="img_menu" alt="menu" onclick="visibilidadeMenu()">
+                <img src="../../icons/menu.png" id="img_menu" alt="menu" onclick="visibilidadeMenu()">
 
                 <menu id="imenu">
                     
-                        <ul>
+                        <ul id="lis_menu">
                             <li><a href="../../index.html">Home</a></li>
                             <li><a href="../arranjos/arranjos.html">Arranjos</a></li>
                             <li><a href="../ocasioes/ocasioes.html">Ocasiões</a></li>
@@ -1898,11 +1898,13 @@
         <script>
             AOS.init();
 
+            let menu = document.getElementById('lis_menu')
+
             function visibilidadeMenu(){
-                if (imenu.style.display == 'block') {
-                    imenu.style.display = 'none'
+                if (menu.style.display == 'block') {
+                    menu.style.display = 'none'
                 } else {
-                    imenu.style.display = 'block'
+                    menu.style.display = 'block'
                 }
             }
         </script>
