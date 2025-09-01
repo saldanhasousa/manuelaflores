@@ -23,7 +23,7 @@ main {
     margin-left: 10px;
     margin-right: 10px;
     margin-bottom: 200px;
-    
+    overflow-x: hidden;
     
 }
 
@@ -108,7 +108,7 @@ section#parte2 {
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
-    overflow-x: hidden;
+    
     background-color: #f4b6c0;
     padding: 20px;
 }
