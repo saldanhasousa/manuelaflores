@@ -118,7 +118,7 @@ div#img_lado_logo > img{
     width: 400px;
 }
 
-@media screen and (min-width: 360px) and (max-width: 640px) {
+@media screen and (max-width: 686px) {
 
     header #img_menu{
         display: block;
@@ -127,26 +127,65 @@ div#img_lado_logo > img{
     }
 
     header #imenu{
-        display: none;
-        background-color: #fff;
-        z-index: 55;
+        display: block;
     }
 
-        header div#img_logo img{
-            display: none;
+    header menu ul{
+        display: none;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+        color: black;
+        background-color: #fff;
+        
+        
+    }
+
+    menu ul li {
+        text-align: center;
+        border: 0.1px solid #c75170;
+    }
+
+    menu ul li:hover{
+        background-image: linear-gradient(to right, #f4b6c094 50%, #e28aa194);        
+    }
+
+    header a {
+    font-weight: bolder;
+    color: #c75170;
+    margin: 10px;
+    text-decoration: none;
+    }
+
+    header div#img_logo img{
+           display: none;
            width: 100px;
            height: 100px;
-        }
 
-        header div#img_logo{
-            text-align: center;
-            z-index: 1;
-            
-        }
+    }
 
-        #img_lado_logo img{
-            width: 100%;
-        }
+    header div#img_logo{
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -10%);
+    }
+
+    header div#img_logo p{
+        color: #fff;
+        font-size: large;
+    }
+
+
+    #logo{
+        justify-content: center;
+        align-items: center;
+    }
+
+    #img_lado_logo img{
+        width: 100%;
+           
+    }
 
 
 }

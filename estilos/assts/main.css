@@ -135,4 +135,16 @@ section#parte2 #conteudo p{
     font-family: var(--font_a_mao);
 }
 
+@media screen and (max-width: 645px) {
+    section#parte2 {
+    flex-flow: row wrap-reverse;
+    align-items: center;
+}
+
+section#parte2 #conteudo{
+    padding-top: 10px;
+    font-size: 2em;
+    
+}
+}
 

@@ -1,11 +1,13 @@
 AOS.init();
 
         /**INICIO MENU RESPONSIVO */
+        let menu = document.getElementById('lis_menu')
+
         function visibilidadeMenu(){
-            if (imenu.style.display == 'block') {
-                imenu.style.display = 'none'
+            if (menu.style.display == 'block') {
+                menu.style.display = 'none'
             } else {
-                imenu.style.display = 'block'
+                menu.style.display = 'block'
             }
         }
 
