@@ -14,7 +14,9 @@
     --font_a_mao: 'Play';
 }
 
+
 main {
+
     display: flex;
     flex-flow: column nowrap;
     justify-content: space-between;
@@ -50,6 +52,12 @@ section#parte1{
     display: flex;
     justify-content: space-evenly;
     animation: moveSlid 1s ease-in-out 1;
+}
+
+.slid.esquerda{
+    display: flex;
+    justify-content: space-evenly;
+    animation: moveEs 1s ease-in-out 1;
 }
 
 section#parte1 h1{
@@ -107,10 +115,10 @@ section#parte1  img{
 section#parte2 {
     display: flex;
     flex-flow: row nowrap;
-    justify-content: space-between;
-    
+    justify-content: space-between;    
     background-color: #f4b6c0;
-    padding: 20px;
+    border-radius: 10px;
+    padding: 13px;
 }
 
 section#parte2 img{
@@ -138,15 +146,16 @@ section#parte2 #conteudo p{
 
 @media screen and (max-width: 645px) {
     section#parte2 {
-    flex-flow: row wrap-reverse;
-    align-items: center;
-}
+        flex-flow: row wrap-reverse;
+        align-items: center;
+        text-align: center;
+    }
 
-section#parte2 #conteudo{
-    font-size: 1.5em;
-    padding-top: 10px;
-    line-height: 2em;
-    
-}
+    section#parte2 #conteudo{
+        font-size: 1.5em;
+        padding-top: 10px;
+        line-height: 2em;
+        
+    }
 }
 

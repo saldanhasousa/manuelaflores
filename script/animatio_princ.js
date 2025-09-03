@@ -17,32 +17,48 @@ AOS.init();
         /**ANIMAÇÃO PARA SLID*/
 
        let quant_slid = document.querySelectorAll('.slid')
-
-       
-
        let inicio = 0
        let tamanho_max = quant_slid.length
-
        let back = document.getElementById('back')
-
        let next = document.getElementById('next')
+       
 
        back.onclick = () =>{
-            let ativoRemove = document.querySelector('.ativo')
 
-            ativoRemove.classList.remove('ativo')
+            let ativoRemove = document.querySelector('.ativo')
+            let esquerdaRemove = document.querySelector('.esquerda')
+
+            if (quant_slid[inicio].classList.contains('ativo') && quant_slid[inicio].classList.contains('esquerda') ) {
+                esquerdaRemove.classList.remove('esquerda')
+                ativoRemove.classList.remove('ativo')
+
+            } else if(quant_slid[inicio].classList.contains('ativo')) {
+                ativoRemove.classList.remove('ativo')
+            } else{
+                esquerdaRemove.classList.remove('esquerda')
+            }
 
             inicio = (inicio <= 0) ? tamanho_max - 1 : inicio - 1
-
-            quant_slid[inicio].classList.add('ativo')
+            
+            quant_slid[inicio].classList.add('esquerda')
             
        }
 
 
         next.onclick = () => {
             let ativoRemove = document.querySelector('.ativo')
+            let esquerdaRemove = document.querySelector('.esquerda')
 
-            ativoRemove.classList.remove('ativo')
+           if (quant_slid[inicio].classList.contains('ativo') && quant_slid[inicio].classList.contains('esquerda') ) {
+                esquerdaRemove.classList.remove('esquerda')
+                ativoRemove.classList.remove('ativo')
+
+            } else if(quant_slid[inicio].classList.contains('ativo')) {
+                ativoRemove.classList.remove('ativo')
+            } else{
+                esquerdaRemove.classList.remove('esquerda')
+            }
+
 
             inicio = (inicio >= tamanho_max - 1) ? 0 : inicio + 1
 
